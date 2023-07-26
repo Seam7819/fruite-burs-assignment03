@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <header>
+        <!-- nav section -->
+        <nav class="h-20 max-w-screen-xl bg-white md:bg-[#F85559] mx-auto rounded-full mt-5 flex items-center justify-between px-8 mb-8">
+
+            <div class="hidden w-full lg:block lg:w-auto">
+                <div class="list-none flex text-white gap-4 cursor-pointer ">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop</li>
+                    <li>All Fruits</li>
+                </div>
+            </div>
+
+            <div class="flex items-center w-3/5 justify-between">
+                <div class="flex items-center  gap-3">
+                    <img class="w-10 md:w-12" src="./images/logo.png">
+                    <h2 class="text-2xl md:text-2xl lg:text-4xl font-bold text-black  md:text-white">
+                        Fruit Burst
+                    </h2>
+                </div>
+
+                <div class="hidden w-full lg:block lg:w-auto">
+                    <input type="search" name="" id="" placeholder="Search here" class="p-3 rounded-full w-80">
+                    <i class="fa-solid fa-magnifying-glass absolute -ml-10 mt-4 text-slate-400"></i>
+                </div>
+            </div>
+            <div class="w-auto md:hidden lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- carousel section -->
+        <section class="max-w-screen-xl mx-auto">
+          <!-- slide 01 -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="/images/banner1.png" class="w-full" />
+              <div class="absolute w-full h-full">
+                <h1 class="text-xl md:text-2xl lg:text-4xl text-center font-bold text-white mt-6 mb-3 lg:mt-16 lg:mb-8">Exotic tastes at your <br> doorstep</h1>
+                <p class="text-sm text-white text-center mb-1 lg:mb-5">We supply highly quality organic products</p>
+                <div class="flex justify-center">
+                  <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-md bg-[#F85559] border-none text-white">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide 02 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="/images/banner2.png" class="w-full" />
+              <div class="absolute block w-full">
+                <h1 class="text-xl md:text-2xl lg:text-4xl text-center font-bold text-white mt-6 mb-3 lg:mt-16 lg:mb-8">Exotic tastes at your <br> doorstep</h1>
+                <p class="text-sm text-white text-center mb-1 lg:mb-5">We supply highly quality organic products</p>
+                <div class="flex justify-center">
+                  <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-md bg-[#F85559] border-none text-white">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide 03 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="/images/banner3.png" class="w-full" />
+              <div class="absolute block w-full">
+                <h1 class="text-xl md:text-2xl lg:text-4xl text-center font-bold text-white mt-6 mb-3 lg:mt-16 lg:mb-8">Exotic tastes at your <br> doorstep</h1>
+                <p class="text-sm text-white text-center mb-1 lg:mb-5">We supply highly quality organic products</p>
+                <div class="flex justify-center">
+                  <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-md bg-[#F85559] border-none text-white">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide 04 -->
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="/images/banner4.png" class="w-full" />
+              <div class="absolute block w-full">
+                <h1 class="text-xl md:text-2xl lg:text-4xl text-center font-bold text-white mt-6 mb-3 lg:mt-16 lg:mb-8">Exotic tastes at your <br> doorstep</h1>
+                <p class="text-sm text-white text-center mb-1 lg:mb-5">We supply highly quality organic products</p>
+                <div class="flex justify-center">
+                  <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-md bg-[#F85559] border-none text-white">Shop Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+          <!-- various fruits -->
+          <div class="hidden w-full md:block md:w-auto">
+            <div class="flex w-4/5 mx-auto justify-center gap-16 bg-white relative -mt-20">
+              <div>
+                <img src="./images/fruit1.png">
+                <p class="text-center">Strawberry</p>
+              </div>
+              <div>
+                <img src="./images/fruit2.png">
+                <p class="text-center">Orange</p>
+              </div>
+              <div>
+                <img src="./images/fruit3.png">
+                <p class="text-center">Mango</p>
+              </div>
+              <div>
+                <img src="./images/fruit4.png">
+                <p class="text-center">Strawberry</p>
+              </div>
+              <div>
+                <img src="./images/fruit5.png">
+                <p class="text-center">Mango</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- deal of day section -->
+        <section class="max-w-screen-xl mx-auto my-20">
+
+          <div class="flex flex-wrap justify-center lg:justify-between">
+
+            <div>
+              <h2 class="text-2xl font-bold mb-5 text-center lg:text-left">Deal of the day</h2>
+              <p class="text-center lg:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+
+            <div class="grid grid-flow-col  text-center auto-cols-max">
+              <div class="flex flex-col">
+                <span class="countdown font-bold text-5xl lg:text-7xl">
+                  <span style="--value:15;"></span>
+                </span>
+                days
+              </div> 
+              <svg class="w-10 h-14 mt-1 md:mt-4" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 15" fill="none">
+                <path d="M8.15198 4.30006C8.03268 4.30006 7.91826 4.25267 7.8339 4.16831C7.74954 4.08395 7.70215 3.96953 7.70215 3.85023C7.70215 3.73092 7.74954 3.6165 7.8339 3.53214C7.91826 3.44778 8.03268 3.40039 8.15198 3.40039C8.27129 3.40039 8.38571 3.44778 8.47007 3.53214C8.55443 3.6165 8.60182 3.73092 8.60182 3.85023C8.60182 3.96953 8.55443 4.08395 8.47007 4.16831C8.38571 4.25267 8.27129 4.30006 8.15198 4.30006ZM8.15198 7.89875C8.03268 7.89875 7.91826 7.85135 7.8339 7.76699C7.74954 7.68263 7.70215 7.56821 7.70215 7.44891C7.70215 7.32961 7.74954 7.21519 7.8339 7.13083C7.91826 7.04647 8.03268 6.99908 8.15198 6.99908C8.27129 6.99908 8.38571 7.04647 8.47007 7.13083C8.55443 7.21519 8.60182 7.32961 8.60182 7.44891C8.60182 7.56821 8.55443 7.68263 8.47007 7.76699C8.38571 7.85135 8.27129 7.89875 8.15198 7.89875ZM8.15198 11.4974C8.03268 11.4974 7.91826 11.45 7.8339 11.3657C7.74954 11.2813 7.70215 11.1669 7.70215 11.0476C7.70215 10.9283 7.74954 10.8139 7.8339 10.7295C7.91826 10.6452 8.03268 10.5978 8.15198 10.5978C8.27129 10.5978 8.38571 10.6452 8.47007 10.7295C8.55443 10.8139 8.60182 10.9283 8.60182 11.0476C8.60182 11.1669 8.55443 11.2813 8.47007 11.3657C8.38571 11.45 8.27129 11.4974 8.15198 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              
+              <div class="flex flex-col">
+                <span class="countdown font-bold text-5xl lg:text-7xl">
+                  <span style="--value:10;"></span>
+                </span>
+                hours
+              </div> 
+              <svg class="w-10 h-14 mt-1 md:mt-4" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 15" fill="none">
+                <path d="M8.15198 4.30006C8.03268 4.30006 7.91826 4.25267 7.8339 4.16831C7.74954 4.08395 7.70215 3.96953 7.70215 3.85023C7.70215 3.73092 7.74954 3.6165 7.8339 3.53214C7.91826 3.44778 8.03268 3.40039 8.15198 3.40039C8.27129 3.40039 8.38571 3.44778 8.47007 3.53214C8.55443 3.6165 8.60182 3.73092 8.60182 3.85023C8.60182 3.96953 8.55443 4.08395 8.47007 4.16831C8.38571 4.25267 8.27129 4.30006 8.15198 4.30006ZM8.15198 7.89875C8.03268 7.89875 7.91826 7.85135 7.8339 7.76699C7.74954 7.68263 7.70215 7.56821 7.70215 7.44891C7.70215 7.32961 7.74954 7.21519 7.8339 7.13083C7.91826 7.04647 8.03268 6.99908 8.15198 6.99908C8.27129 6.99908 8.38571 7.04647 8.47007 7.13083C8.55443 7.21519 8.60182 7.32961 8.60182 7.44891C8.60182 7.56821 8.55443 7.68263 8.47007 7.76699C8.38571 7.85135 8.27129 7.89875 8.15198 7.89875ZM8.15198 11.4974C8.03268 11.4974 7.91826 11.45 7.8339 11.3657C7.74954 11.2813 7.70215 11.1669 7.70215 11.0476C7.70215 10.9283 7.74954 10.8139 7.8339 10.7295C7.91826 10.6452 8.03268 10.5978 8.15198 10.5978C8.27129 10.5978 8.38571 10.6452 8.47007 10.7295C8.55443 10.8139 8.60182 10.9283 8.60182 11.0476C8.60182 11.1669 8.55443 11.2813 8.47007 11.3657C8.38571 11.45 8.27129 11.4974 8.15198 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+
+
+              <div class="flex flex-col">
+                <span class="countdown font-bold text-5xl  md:text-7xl">
+                  <span style="--value:24;"></span>
+                </span>
+                min
+              </div>
+              <svg class="w-10 h-14 mt-1 md:mt-4" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 15" fill="none">
+                <path d="M8.15198 4.30006C8.03268 4.30006 7.91826 4.25267 7.8339 4.16831C7.74954 4.08395 7.70215 3.96953 7.70215 3.85023C7.70215 3.73092 7.74954 3.6165 7.8339 3.53214C7.91826 3.44778 8.03268 3.40039 8.15198 3.40039C8.27129 3.40039 8.38571 3.44778 8.47007 3.53214C8.55443 3.6165 8.60182 3.73092 8.60182 3.85023C8.60182 3.96953 8.55443 4.08395 8.47007 4.16831C8.38571 4.25267 8.27129 4.30006 8.15198 4.30006ZM8.15198 7.89875C8.03268 7.89875 7.91826 7.85135 7.8339 7.76699C7.74954 7.68263 7.70215 7.56821 7.70215 7.44891C7.70215 7.32961 7.74954 7.21519 7.8339 7.13083C7.91826 7.04647 8.03268 6.99908 8.15198 6.99908C8.27129 6.99908 8.38571 7.04647 8.47007 7.13083C8.55443 7.21519 8.60182 7.32961 8.60182 7.44891C8.60182 7.56821 8.55443 7.68263 8.47007 7.76699C8.38571 7.85135 8.27129 7.89875 8.15198 7.89875ZM8.15198 11.4974C8.03268 11.4974 7.91826 11.45 7.8339 11.3657C7.74954 11.2813 7.70215 11.1669 7.70215 11.0476C7.70215 10.9283 7.74954 10.8139 7.8339 10.7295C7.91826 10.6452 8.03268 10.5978 8.15198 10.5978C8.27129 10.5978 8.38571 10.6452 8.47007 10.7295C8.55443 10.8139 8.60182 10.9283 8.60182 11.0476C8.60182 11.1669 8.55443 11.2813 8.47007 11.3657C8.38571 11.45 8.27129 11.4974 8.15198 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg> 
+
+              <div class="flex flex-col">
+                <span class="countdown font-bold text-5xl  md:text-7xl">
+                  <span style="--value:53;"></span>
+                </span>
+                sec
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- card section -->
+        <section>
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p>Apples</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Details</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p>Orange</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class="card-actions">
+                <button class="btn btn-primary">Details</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
